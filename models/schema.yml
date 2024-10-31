@@ -5,7 +5,7 @@ models:
     description: "Analytics model for session data"
     columns:
       - name: sessionId
-        description: "Unique identifier for each stock price record"
+        description: "Unique identifier for each user session"
         data_tests:
           - unique
           - not_null
